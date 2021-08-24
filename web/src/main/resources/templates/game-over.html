@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"  xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head :: headFragment}">
+<head id="headId">
     <meta charset="UTF-8">
     <title>Game Finished Context</title>
 </head>
@@ -14,7 +14,7 @@
 <h3><a th:href="restart" th:text="PlayAgain"/> </h3>
 <h3><a th:href="home" th:text="Home"/> </h3>
 
-<footer th:replace="~{fragments/footer :: footerFragment}"><p>Creator</p></footer>
+<footer id="footerId"><p>Creator</p></footer>
 </div >
 </body>
 </html>

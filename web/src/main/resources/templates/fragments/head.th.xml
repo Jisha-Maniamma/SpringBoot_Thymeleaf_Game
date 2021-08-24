@@ -1,4 +1,4 @@
-play.th.xml<thlogic>
-    <attr sel="#headId" th:replace="~{fragments/head :: headFragment}"/>
+<thlogic>
+    <attr sel="#headId" th:fragment="headFragment"/>
 
 </thlogic>
