@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"  xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="~{fragments/head :: headFragment}">
     <meta charset="UTF-8">
-    <title>Guess the Number Game</title>
+    <title>Game Finished Context</title>
 </head>
 <body>
 <div align="center">
@@ -13,7 +13,8 @@
 <h3 th:text="${resultMessage}">Result Message context</h3>
 <h3><a th:href="restart" th:text="PlayAgain"/> </h3>
 <h3><a th:href="home" th:text="Home"/> </h3>
+
+<footer th:replace="~{fragments/footer :: footerFragment}"><p>Creator</p></footer>
 </div >
-<footer><p>Created by Jisha Maniamma</p></footer>
 </body>
 </html>

@@ -6,10 +6,11 @@
 </head>
 <body>
 <div align="center">
-    <h1>Welcome to Guess the Number Game</h1>
+    <h1>Welcome for Guess the Number Game</h1>
     <h3>
         <a th:href="play"
-           th:text="Play">
+           th:text="Play"
+        href="play.html">
             Click to Play
 
             <!--        <a th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}"
@@ -19,6 +20,8 @@
         </a>
     </h3>
 
+
+<footer th:replace="~{fragments/footer :: footerFragment}"><p>Creator</p></footer>
 </div>
 </body>
 </html>
