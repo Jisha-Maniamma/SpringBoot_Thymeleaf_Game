@@ -6,9 +6,19 @@
 </head>
 <body>
 <div align="center">
+    <h1>Welcome to Guess the Number Game</h1>
+    <h3>
+        <a th:href="play"
+           th:text="Play">
+            Click to Play
 
-    <h1>Welcome to the game</h1>
-    <a th:href="play" th:text="Play" >Click to Play</a>
+            <!--        <a th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}"
+                       th:text="Play">
+                        Click to Play
+                    </a>-->
+        </a>
+    </h3>
+
 </div>
 </body>
 </html>
