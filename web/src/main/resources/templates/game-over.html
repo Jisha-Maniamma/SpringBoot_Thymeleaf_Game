@@ -2,17 +2,18 @@
 <html lang="en"  xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Game Over</title>
+    <title>Guess the Number Game</title>
 </head>
 <body>
-<div>
+<div align="center">
 
-</div>
+
 <h1>Guess the Number Game</h1>
 <h2> Game Over</h2>
 <h3 th:text="${resultMessage}">Result Message context</h3>
-<h3><a th:href="restart" th:text="Play Again"/> </h3>
+<h3><a th:href="restart" th:text="PlayAgain"/> </h3>
 <h3><a th:href="home" th:text="Home"/> </h3>
+</div >
 <footer><p>Created by Jisha Maniamma</p></footer>
 </body>
 </html>
