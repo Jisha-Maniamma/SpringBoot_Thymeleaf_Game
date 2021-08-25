@@ -1,4 +1,4 @@
-# SpringBoot_Thymeleaf_guess-the-number-game
+# SpringBoot_Thymeleaf_GAME
 
 
 <h1> sample Spring based web application [Tomcat] to guess the number</h1>
