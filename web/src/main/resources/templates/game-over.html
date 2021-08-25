@@ -12,9 +12,9 @@
 <h2 id="gameOver"> Game Over</h2>
 <h3 th:text="${resultMessage}">Result Message context</h3>
 <h3><a th:href="restart" th:text="#{game.play}" /> </h3>
-<h3><a th:href="home" th:text="Home"/> </h3>
+<h3><a th:href="home" th:text="#{game.Home}"/> </h3>
 
-<footer id="footerId"><p>Creator</p></footer>
+<footer id="footerId"><p id="created-by">Creator</p></footer>
 </div >
 </body>
 </html>

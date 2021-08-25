@@ -6,10 +6,10 @@
 </head>
 <body>
 <div align="center">
-    <h1>Welcome for Guess the Number Game</h1>
+    <h1 id="game-title">Welcome for Guess the Number Game</h1>
     <h3>
         <a th:href="play"
-           th:text="Play"
+           th:text="#{game.playMain}"
         href="play.html">
             Click to Play
 
@@ -21,7 +21,7 @@
     </h3>
 
 
-<footer id="footerId"><p>Creator</p></footer>
+<footer id="footerId"><p id="created-by">Creator</p></footer>
 </div>
 </body>
 </html>
