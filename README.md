@@ -6,12 +6,12 @@
 <h2> English Page </h2>
 
 
-http://localhost:8080/home
+http://localhost:8080/home?locale=
 
 <h3>❤❤❤❤ ENGLISH PAGE ❤❤❤❤</h3>
 <img src="/images/english.png" alt="Loaded application in english language"/>
 
-
+http://localhost:8080/home?locale=ja_JP
 <h3>❤❤❤❤ JAPANESE PAGE ❤❤❤❤</h3>
 <img src="/images/japanese.png" alt="Loaded application in japanese language"/>
 
