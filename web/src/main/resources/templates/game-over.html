@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <title>Game Finished Context</title>
 </head>
-<body>
-<div align="center">
+<body style="background-color: bisque; ">
+<div align="center" style="height: 800px">
 
 
 <h1 id="game-title">Guess the Number Game</h1>
-<h2 id="gameOver"> Game Over</h2>
+<h2 id="gameOver" style="padding-top: 200px;"> Game Over</h2>
 <h3 th:text="${resultMessage}">Result Message context</h3>
 <h3><a th:href="restart" th:text="#{game.play}" /> </h3>
 <h3><a th:href="home" th:text="#{game.Home}"/> </h3>
 
-<footer id="footerId"><p id="created-by">Creator</p></footer>
+<footer   id="footerId" style="padding-top:600px"><!--id="footerId"-->
+    <p >Creator</p></footer>
 </div >
 </body>
 </html>
