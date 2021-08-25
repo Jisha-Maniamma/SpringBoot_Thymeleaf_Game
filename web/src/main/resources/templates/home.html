@@ -3,8 +3,25 @@
 <head id="headId" >
     <meta charset="UTF-8">
     <title>title content</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body style="background-color: bisque; ">
+<!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Change Language
+    </button>
+    <div >
+<!--        class="dropdown-menu"-->
+        <a class="dropdown-item" href="?locale=" th:value="en">English</a>
+        <br>
+        <a class="dropdown-item" href="?locale=ja_JP">Japanese</a>
+
+    </div>
+</div>
+
 <div align="center" style="height: 800px">
     <h1 id="game-title">Welcome for Guess the Number Game</h1>
     <h3 style="padding-top: 100px">
