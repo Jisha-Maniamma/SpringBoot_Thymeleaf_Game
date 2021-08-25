@@ -2,4 +2,10 @@
     <attr sel="#headId" th:replace="~{fragments/head :: headFragment}"/>
     <attr sel="#footerId" th:replace="~{fragments/footer :: footerFragment}"></attr>
 
+    <attr sel="#game-title" th:text="#{game.finish.title}"/>
+
+    <attr sel="#gaveOver" th:text="#{game.finish.result}"/>
+    <attr sel="#created-by" th:text="|#{game.createdBy} JISHA MANIAMMA (ジーシャ マニアマ)|"/>
+    <attr sel="#submit" th:value="#{game.submit}"/>
+
 </thlogic>

@@ -7,7 +7,7 @@
 <body>
 <div align="center">
 
-    <h1>Guess to the Number game</h1>
+    <h1 id="game-title">Guess to the Number game</h1>
 
     <h3 th:text="${mainMessage}">Main Message Content</h3>
     <h3 th:text="${resultMessage}">Result Message Content</h3>
@@ -18,12 +18,12 @@
     <form action="play" method="post">-->
 
 
-    <form action="play" method="post">
-        <label for="guess">Enter your guess</label>
+    <form id="game-form" action="play" method="post">
+        <label id="enter-guess" for="guess">Enter your guess</label>
         <input  id="guess" type="number" name="guess"/>
-        <input type="submit" value="Submit">
+        <input id="submit" type="submit" value="Submit">
     </form>
-    <footer><p>Created by Jisha Maniamma</p></footer>
+    <footer><p id="created-by">Created by Jisha Maniamma</p></footer>
 </div>
 </body>
 </html>

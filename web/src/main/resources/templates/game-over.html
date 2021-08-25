@@ -8,10 +8,10 @@
 <div align="center">
 
 
-<h1>Guess the Number Game</h1>
-<h2> Game Over</h2>
+<h1 id="game-title">Guess the Number Game</h1>
+<h2 id="gameOver"> Game Over</h2>
 <h3 th:text="${resultMessage}">Result Message context</h3>
-<h3><a th:href="restart" th:text="PlayAgain"/> </h3>
+<h3><a th:href="restart" th:text="#{game.play}" /> </h3>
 <h3><a th:href="home" th:text="Home"/> </h3>
 
 <footer id="footerId"><p>Creator</p></footer>
